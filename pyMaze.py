@@ -17,7 +17,7 @@ mz[2][3] = " "
 mz[3][3] = " "
 
 # print the maze
-for y in range(row):
+for y in reversed(range(row)):
   for x in range(col):
   	print(mz[y][x], end=' ')
   print("")
